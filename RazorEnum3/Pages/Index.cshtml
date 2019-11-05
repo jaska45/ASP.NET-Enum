@@ -1,0 +1,12 @@
+﻿@page
+@using RazorEnum.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+  <p>@Localizer["This is a sample."]</p>
+  <select class="form-control" asp-for="Sport" asp-items="Html.GetEnumSelectList<Sport>()">
+  </select>
+</div>

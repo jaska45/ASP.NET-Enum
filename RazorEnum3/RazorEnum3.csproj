@@ -2,8 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyName>MVCEnum</AssemblyName>
-    <RootNamespace>MVCEnum</RootNamespace>
+    <AssemblyName>RazorEnum</AssemblyName>
+    <RootNamespace>RazorEnum</RootNamespace>
   </PropertyGroup>
+
+
+  <ItemGroup>
+  </ItemGroup>
 
 </Project>

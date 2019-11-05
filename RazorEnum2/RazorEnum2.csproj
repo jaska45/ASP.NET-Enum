@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>MVCEnum</RootNamespace>
-    <AssemblyName>MVCEnum</AssemblyName>
+    <RootNamespace>RazorEnum</RootNamespace>
+    <AssemblyName>RazorEnum</AssemblyName>
   </PropertyGroup>
 
 

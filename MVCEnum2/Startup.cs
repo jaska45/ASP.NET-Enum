@@ -31,6 +31,7 @@ namespace MVCEnum
 
       services.AddMvc()
         .AddViewLocalization()
+        .AddDataAnnotationsLocalization()
         .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
       services.AddLocalization(opts => { opts.ResourcesPath = "Resources"; });
@@ -56,7 +57,6 @@ namespace MVCEnum
         new CultureInfo("fi")
       };
 
-      // 3) Configure application to use the 
       var options = new RequestLocalizationOptions
       {
         DefaultRequestCulture = new RequestCulture("en"),
