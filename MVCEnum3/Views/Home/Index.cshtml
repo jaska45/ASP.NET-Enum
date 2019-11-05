@@ -1,0 +1,14 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <p>@Localizer["This is a sample."]</p>
+    <div class="col-sm-12">
+        <div class="form-group">
+            <select class="form-control" asp-for="Sport" asp-items="Html.GetEnumSelectList<Sport>()">
+            </select>
+        </div>
+    </div>
+</div>
